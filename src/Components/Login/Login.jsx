@@ -8,8 +8,6 @@ import { toast, Toaster } from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import { getEmail} from './actions';
 
-
-
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
